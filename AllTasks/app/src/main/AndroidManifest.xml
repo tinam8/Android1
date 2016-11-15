@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="math.hr.alltasks" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityFragmentsIntents"
+            android:label="@string/title_activity_activity_fragments_intents" >
+        </activity>
+        <activity
+            android:name=".UserInterface"
+            android:label="@string/title_activity_user_interface" >
+        </activity>
+        <activity
+            android:name=".StoringData"
+            android:label="@string/title_activity_storing_data" >
+        </activity>
+        <activity
+            android:name=".SlanjeTeksta"
+            android:label="@string/title_activity_slanje_teksta" >
+        </activity>
+        <activity
+            android:name=".SlanjeNaTriNacina"
+            android:label="@string/title_activity_slanje_na_tri_nacina" >
+        </activity>
+        <activity
+            android:name=".IntentsBrowser"
+            android:label="@string/title_activity_inetnts_browser" >
+        </activity>
+        <activity
+            android:name=".Fragments"
+            android:label="@string/title_activity_fragments" >
+        </activity>
+        <activity
+            android:name=".FragmentsStatic"
+            android:label="@string/title_activity_fragments_static" >
+        </activity>
+        <activity
+            android:name=".FragmentsDynamic"
+            android:label="@string/title_activity_fragments_dynamic" >
+        </activity>
+        <activity
+            android:name=".FragmentsZadatak"
+            android:label="@string/title_activity_fragments_zadatak" >
+        </activity>
+        <activity
+            android:name=".Layouts"
+            android:label="@string/title_activity_layouts" >
+        </activity>
+        <activity
+            android:name=".LinearLayout"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".FrameLayout"
+            android:label="@string/title_activity_frame_layout" >
+        </activity>
+        <activity
+            android:name=".TableLayout"
+            android:label="@string/title_activity_table_layout" >
+        </activity>
+        <activity
+            android:name=".RelativeLayout"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".Anchoring"
+            android:label="@string/title_activity_anchoring" >
+        </activity>
+        <activity
+            android:name=".ViewElements"
+            android:label="@string/title_activity_view_elements" >
+        </activity>
+        <activity
+            android:name=".ProgressBar"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+        <activity
+            android:name=".ViewProgressBar"
+            android:label="@string/title_activity_view_progress_bar" >
+        </activity>
+        <activity
+            android:name=".DateAndTimePicker"
+            android:label="@string/title_activity_date_and_time_picker" >
+        </activity>
+        <activity
+            android:name=".ViewList"
+            android:label="@string/title_activity_view_list" >
+        </activity>
+        <activity
+            android:name=".ViewImages"
+            android:label="@string/title_activity_view_images" >
+        </activity>
+        <activity
+            android:name=".OptionsContexMenu"
+            android:label="@string/title_activity_options_contex_menu" >
+        </activity>
+        <activity
+            android:name=".Preferences"
+            android:label="@string/title_activity_preferences" >
+        </activity>
+        <activity
+            android:name=".DataFiles"
+            android:label="@string/title_activity_data_files" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+    <TableRow>
+        <Button
+            android:id="@+id/button1"
+            android:text="@string/prvi" />
+        <Button
+            android:id="@+id/button2"
+            android:text="@string/drugi" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button3"
+            android:text="@string/treci" />
+        <Button
+            android:id="@+id/button4"
+            android:text="@string/cetvtri" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/tekst"/>
+        <Button
+            android:id="@+id/button5"
+            android:text="@string/peti" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button6"
+            android:text="@string/sesti" />
+    </TableRow>
+</TableLayout>

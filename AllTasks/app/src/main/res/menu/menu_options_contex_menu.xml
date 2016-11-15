@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="math.hr.alltasks.OptionsContexMenu">
+
+    <item android:id="@+id/bijela" android:title="@string/bijela"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/crvena" android:title="@string/crvena"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/plava" android:title="@string/plava"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/roza" android:title="@string/roza"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>

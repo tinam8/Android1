@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_text" />
+
+    <EditText
+        android:id="@+id/txtText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="@string/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSave" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:text="@string/load"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLoad" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:text="@string/read_static"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readStatic" />
+
+</LinearLayout>

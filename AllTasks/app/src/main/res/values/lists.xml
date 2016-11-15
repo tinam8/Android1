@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kolegiji">
+        <item>Baze podataka</item>
+        <item>Racunarski praktikum</item>
+        <item>Mreze racunala</item>
+        <item>SPA</item>
+        <item>Programiranje</item>
+    </string-array>
+</resources>
