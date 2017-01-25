@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Databases</string>
+    <string name="add">Add contacts</string>
+    <string name="update">Update contact</string>
+    <string name="show">Show Contacts</string>
+    <string name="del">Delete conatcts</string>
+    <string name="insert">Insert Contact</string>
+    <string name="title_activity_embedded_cp">embeddedCP</string>
+    <string name="embedded">Embedded CP</string>
+    <string name="SmsEmail">Send SMS and Email</string>
+    <string name="title_activity_web_connection">WebConnection</string>
+    <string name="web">Web Spajanje</string>
+    <string name="start">Start Service</string>
+    <string name="stop">Stop service</string>
+    <string name="notif">Show notification</string>
+    <string name="notifikacija">Detalji notifikacije</string>
+    <string name="customCp">CustomCP</string>
+</resources>
